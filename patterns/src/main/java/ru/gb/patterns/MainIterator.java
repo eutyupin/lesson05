@@ -5,6 +5,7 @@ import java.util.Random;
 
 public class MainIterator {
     public static void main(String[] args) {
+        // c итератором я чет не понял пока
         Iterable<Integer> nums = () -> new Iterator<>() {
             int count = 7;
             Random rand;
